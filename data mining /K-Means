@@ -58,3 +58,5 @@ plt.scatter(kmeans.centroids[:, 0], kmeans.centroids[:, 1], c='red', marker='X',
 plt.legend()
 plt.title("K-Means Clustering")
 plt.show()
+
+# user by BProject Developer
