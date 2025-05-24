@@ -42,4 +42,4 @@ You can also contact us via Instagram: [@decatech.id](https://instagram.com/deca
 
 ## About DecaTech  
 **DecaTech** is a team that came together unexpectedly through a competition.  
-The team was founded by **Mr. Faisal** and **Bella**, with **Rachel** and **Bintang** as core members.
+The team was founded by **Mr. Faisal** and **Ms. Bella**, with **Rachel** and **Bintang** as core members.
