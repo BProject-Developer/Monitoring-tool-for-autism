@@ -34,11 +34,12 @@ npm install  # or pip install -r requirements.txt for Python-based projects
 # Run the application
 npm start  # or python app.py
 
-# Contributing
-We welcome contributions from developers and collaborators.
-Feel free to open an issue or submit a pull request if you’re interested in improving this project.
-You can also contact us via Instagram: @decatech.id
+"
+# Contributing  
+We welcome contributions from developers and collaborators.  
+Feel free to open an issue or submit a pull request if you’re interested in improving this project.  
+You can also contact us via Instagram: [@decatech.id](https://instagram.com/decatech.id)
 
-About DecaTech
-DecaTech is a team that came together unexpectedly through a competition.
-The team was founded by Mr. Faisal and Bella, with Rachel and Bintang as core members.
+## About DecaTech  
+**DecaTech** is a team that came together unexpectedly through a competition.  
+The team was founded by **Mr. Faisal** and **Bella**, with **Rachel** and **Bintang** as core members.
