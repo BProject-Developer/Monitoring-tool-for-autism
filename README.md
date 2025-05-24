@@ -18,9 +18,9 @@ This tool builds upon that study, offering real-time data logging and comparison
   Store data locally or optionally in the cloud, with user privacy as a top priority.
 
 ## Tech Stack  
-- Frontend: *[PHP/CSS/etc.]*  
+- Frontend: *[PHP/HTML/CSS/etc.]*  
 - Backend: *[Python/Node.js/etc.]*  
-- Database: *[Firebase/MySQL/etc.]*  
+- Database: *[Firebase/MySQL/etc.]*
 
 ## Installation  
 ```bash
@@ -33,9 +33,9 @@ npm install  # or pip install -r requirements.txt for Python-based projects
 
 # Run the application
 npm start  # or python app.py
+```
 
-"
-# Contributing  
+## Contributing  
 We welcome contributions from developers and collaborators.  
 Feel free to open an issue or submit a pull request if you’re interested in improving this project.  
 You can also contact us via Instagram: [@decatech.id](https://instagram.com/decatech.id)
