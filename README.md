@@ -100,12 +100,12 @@ Clone the repository:
 ```bash
 git clone https://github.com/BProject-Developer/Monitoring-tool-for-autism.git
 cd Monitoring-tool-for-autism
-
+```
 Install dependencies
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib
-
+```
 ---
 
 ## Conclusion
