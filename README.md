@@ -114,8 +114,8 @@ K-Means clustering outperformed GMM-AIC in grouping ASD severity levels based on
 ---
 
 ## Authors
-Rachel Dorothy Tomasoa
-Alief Bintang Ramadhan
+- Rachel Dorothy Tomasoa
+- Alief Bintang Ramadhan
 
 ---
 
