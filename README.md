@@ -1,39 +1,123 @@
-# Comparison of clustering methods of ASD disorder levels based on ECG and NH3 data
-*Developed by DecaTech*
+# Monitoring Tool for Autism
+### Clustering ASD Severity Levels Using EKG and NH3 Data
 
-## Overview  
-**Monitoring Tool for Autism** is the first project developed by the **DecaTech** team, aiming to support inclusive education by addressing clinical characteristics found in individuals with Autism Spectrum Disorder (ASD). This project analyzes clinical indicators based on **EKG (Electrocardiogram)** and **NH₃ (Ammonia)** data. These datasets are derived from the first Indonesian research in this field by **Marchelliant et al. (2021)**.  
-This tool builds upon that study, offering real-time data logging and comparison between different clustering methods for behavioral pattern recognition and analysis.
+## Overview
 
-## Features  
-- **Real-time Behavior Logging**  
-  Instantly log behavioral changes with an intuitive user interface.  
-- **Custom Behavior Categories**  
-  Add and manage behavior categories tailored to individual needs.  
-- **Report Generation**  
-  Export structured reports for therapy sessions or medical consultations.  
-- **User-friendly Interface**  
-  Designed to be accessible for both professionals and non-technical users.  
-- **Data Storage & Security**  
-  Store data locally or optionally in the cloud, with user privacy as a top priority.
+This project presents a data-driven approach to classify Autism Spectrum Disorder (ASD) severity levels using physiological indicators:
 
-## Tech Stack  
-- Frontend: *[PHP/HTML/CSS/etc.]*  
-- Backend: *[Python/Node.js/etc.]*  
-- Database: *[Firebase/MySQL/etc.]*
+- Electrocardiogram (EKG) signals  
+- Ammonia (NH3) concentration levels  
 
-## Installation  
+The study compares two clustering algorithms:
+
+- K-Means Clustering  
+- Gaussian Mixture Model (GMM) with Akaike Information Criterion (AIC)
+
+The goal is to determine which method provides better clustering performance in separating ASD severity levels.
+
+---
+
+## Research Objectives
+
+- Compare the performance of K-Means and GMM-AIC in clustering ASD severity.
+- Analyze differences in cluster characteristics.
+- Evaluate clustering quality using Silhouette Score.
+
+---
+
+## Dataset
+
+The dataset is based on research conducted by:
+
+Marchelliant et al. (2021) – *Analysis of Electrocardiogram Signal and Ammonia Concentration for Clustering ASD Condition.*
+
+Dataset composition:
+- 20 Normal samples
+- 54 ASD samples
+
+Extracted features:
+- EKG line equation coefficient
+- EKG constant
+- Maximum NH3 concentration
+
+---
+
+## Methodology
+
+The research pipeline consists of four stages:
+
+### 1. Data Characterization
+- Missing value handling (mean imputation)
+- Duplicate removal
+- Feature selection
+
+### 2. Feature Extraction
+- Feature standardization
+- Principal Component Analysis (PCA)
+- Extraction of PC1, PC2, and PC3
+
+### 3. Clustering
+- K-Means (k = 4)
+- GMM with AIC (optimal k = 4)
+
+Clusters represent:
+- Normal
+- Mild ASD
+- Moderate ASD
+- Severe ASD
+
+### 4. Evaluation
+- Silhouette Score comparison
+- Visual cluster analysis
+
+---
+
+## Results
+
+| Method  | Silhouette Score | Interpretation        |
+|---------|------------------|-----------------------|
+| K-Means | 0.72             | Clear separation      |
+| GMM-AIC | 0.42             | Overlapping clusters  |
+
+K-Means demonstrated better structural separation and higher clustering quality for this dataset.
+
+---
+
+## Technologies Used
+
+- Python  
+- NumPy  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+
+---
+
+## Installation
+
+Clone the repository:
+
 ```bash
-# Clone the repository
 git clone https://github.com/BProject-Developer/Monitoring-tool-for-autism.git
-
-# Install dependencies
 cd Monitoring-tool-for-autism
-npm install  # or pip install -r requirements.txt for Python-based projects
 
-# Run the application
-npm start  # or python app.py
-```
+Install dependencies
+
+```bash
+pip install numpy pandas scikit-learn matplotlib
+
+---
+
+## Conclusion
+K-Means clustering outperformed GMM-AIC in grouping ASD severity levels based on EKG and NH3 data, achieving a higher Silhouette Score and clearer cluster separation.
+
+---
+
+## Authors
+Rachel Dorothy Tomasoa
+Alief Bintang Ramadhan
+
+---
 
 ## Contributing  
 We welcome contributions from developers and collaborators.  
