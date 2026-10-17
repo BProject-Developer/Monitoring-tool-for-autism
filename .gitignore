@@ -1,0 +1,6 @@
+# Dataset penelitian
+*.xlsx
+*.xls
+
+# Folder data
+data/
